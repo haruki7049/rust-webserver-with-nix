@@ -13,5 +13,5 @@ async fn main() {
 }
 
 async fn hello() -> &'static str {
-    "Hello, with Nix-flakes!!"
+    "Hello, with Nix!!"
 }
