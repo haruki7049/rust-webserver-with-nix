@@ -11,4 +11,5 @@ nix build .#default # Build the web-server in with-nix-flakes
 # In /with-nix directory...
 nix-shell # Enter the nix-shell environment, with cargo, rustc, rustfmt and etc.
 nix-build # Build the web-server in with-nix
+nix-build ./treefmt.nix # Create formatter into result
 ```
